@@ -11,7 +11,7 @@
  *Allure Report*
  
 -  ### Project Design:
- *Page Object Model (POM) design pattern*
+ *Object Model design pattern*
  
 
  ![Example Image](allure.png)
