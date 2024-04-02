@@ -1,0 +1,18 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 5' test cases in the current suite                                        
+                                              Test Method: 'Tests.account_user_api.registerapitest'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @02-04-2024 20:31:02.0701 PM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @02-04-2024 20:31:02.0761 PM
+[ReportManager] Assertion Passed: "200" is equal to "200". @02-04-2024 20:31:02.0763 PM
+[ReportManager] Evaluating the actual response status code 200 against the expected one 200. @02-04-2024 20:31:02.0792 PM
+[ReportManager] Request details:  "POST | Target Status Code: 200 | Service URL: https://automationexercise.com/api/createAccount | Content Type: application/x-www-form-urlencoded | Response Time: 2389ms". @02-04-2024 20:31:04.0432 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @02-04-2024 20:31:04.0433 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @02-04-2024 20:31:04.0434 PM
+[ReportManager] Get response jsonvalue "message". @02-04-2024 20:31:05.0421 PM
+[ReportManager] Expected "User created!", and actual "User created!" @02-04-2024 20:31:05.0423 PM
+[ReportManager] Verification "ValidateEquals" PASSED. Expected "User created!" and Actual "User created!". Comparison Type "EQUALS". Validation Type "POSITIVE". @02-04-2024 20:31:05.0445 PM
+[ReportManager] Verification Passed: the API response extracted value from the JSON path "message" is equal to "User created!". @02-04-2024 20:31:05.0447 PM
+[ReportManager] the API response extracted value from the JSON path "message" is equal to "User created!". @02-04-2024 20:31:05.0447 PM

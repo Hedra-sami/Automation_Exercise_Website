@@ -1,0 +1,413 @@
+{
+  "responseCode": 200,
+  "products": [
+    {
+      "price": "Rs. 500",
+      "name": "Blue Top",
+      "id": 1,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Tops"
+      },
+      "brand": "Polo"
+    },
+    {
+      "price": "Rs. 400",
+      "name": "Men Tshirt",
+      "id": 2,
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Tshirts"
+      },
+      "brand": "H\u0026M"
+    },
+    {
+      "price": "Rs. 1000",
+      "name": "Sleeveless Dress",
+      "id": 3,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Dress"
+      },
+      "brand": "Madame"
+    },
+    {
+      "price": "Rs. 1500",
+      "name": "Stylish Dress",
+      "id": 4,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Dress"
+      },
+      "brand": "Madame"
+    },
+    {
+      "price": "Rs. 600",
+      "name": "Winter Top",
+      "id": 5,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Tops"
+      },
+      "brand": "Mast \u0026 Harbour"
+    },
+    {
+      "price": "Rs. 400",
+      "name": "Summer White Top",
+      "id": 6,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Tops"
+      },
+      "brand": "H\u0026M"
+    },
+    {
+      "price": "Rs. 1000",
+      "name": "Madame Top For Women",
+      "id": 7,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Tops"
+      },
+      "brand": "Madame"
+    },
+    {
+      "price": "Rs. 700",
+      "name": "Fancy Green Top",
+      "id": 8,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Tops"
+      },
+      "brand": "Polo"
+    },
+    {
+      "price": "Rs. 499",
+      "name": "Sleeves Printed Top - White",
+      "id": 11,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Tops \u0026 Shirts"
+      },
+      "brand": "Babyhug"
+    },
+    {
+      "price": "Rs. 359",
+      "name": "Half Sleeves Top Schiffli Detailing - Pink",
+      "id": 12,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Tops \u0026 Shirts"
+      },
+      "brand": "Babyhug"
+    },
+    {
+      "price": "Rs. 278",
+      "name": "Frozen Tops For Kids",
+      "id": 13,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Tops \u0026 Shirts"
+      },
+      "brand": "Allen Solly Junior"
+    },
+    {
+      "price": "Rs. 679",
+      "name": "Full Sleeves Top Cherry - Pink",
+      "id": 14,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Tops \u0026 Shirts"
+      },
+      "brand": "Kookie Kids"
+    },
+    {
+      "price": "Rs. 315",
+      "name": "Printed Off Shoulder Top - White",
+      "id": 15,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Tops \u0026 Shirts"
+      },
+      "brand": "Babyhug"
+    },
+    {
+      "price": "Rs. 478",
+      "name": "Sleeves Top and Short - Blue \u0026 Pink",
+      "id": 16,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      },
+      "brand": "Babyhug"
+    },
+    {
+      "price": "Rs. 1200",
+      "name": "Little Girls Mr. Panda Shirt",
+      "id": 18,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Tops \u0026 Shirts"
+      },
+      "brand": "Kookie Kids"
+    },
+    {
+      "price": "Rs. 1050",
+      "name": "Sleeveless Unicorn Patch Gown - Pink",
+      "id": 19,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      },
+      "brand": "Allen Solly Junior"
+    },
+    {
+      "price": "Rs. 1190",
+      "name": "Cotton Mull Embroidered Dress",
+      "id": 20,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      },
+      "brand": "Kookie Kids"
+    },
+    {
+      "price": "Rs. 1530",
+      "name": "Blue Cotton Indie Mickey Dress",
+      "id": 21,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      },
+      "brand": "Biba"
+    },
+    {
+      "price": "Rs. 1600",
+      "name": "Long Maxi Tulle Fancy Dress Up Outfits -Pink",
+      "id": 22,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      },
+      "brand": "Biba"
+    },
+    {
+      "price": "Rs. 1100",
+      "name": "Sleeveless Unicorn Print Fit \u0026 Flare Net Dress - Multi",
+      "id": 23,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Dress"
+      },
+      "brand": "Biba"
+    },
+    {
+      "price": "Rs. 849",
+      "name": "Colour Blocked Shirt – Sky Blue",
+      "id": 24,
+      "category": {
+        "usertype": {
+          "usertype": "Kids"
+        },
+        "category": "Tops \u0026 Shirts"
+      },
+      "brand": "Allen Solly Junior"
+    },
+    {
+      "price": "Rs. 1299",
+      "name": "Pure Cotton V-Neck T-Shirt",
+      "id": 28,
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Tshirts"
+      },
+      "brand": "H\u0026M"
+    },
+    {
+      "price": "Rs. 1000",
+      "name": "Green Side Placket Detail T-Shirt",
+      "id": 29,
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Tshirts"
+      },
+      "brand": "Polo"
+    },
+    {
+      "price": "Rs. 1500",
+      "name": "Premium Polo T-Shirts",
+      "id": 30,
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Tshirts"
+      },
+      "brand": "Polo"
+    },
+    {
+      "price": "Rs. 850",
+      "name": "Pure Cotton Neon Green Tshirt",
+      "id": 31,
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Tshirts"
+      },
+      "brand": "H\u0026M"
+    },
+    {
+      "price": "Rs. 799",
+      "name": "Soft Stretch Jeans",
+      "id": 33,
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Jeans"
+      },
+      "brand": "Polo"
+    },
+    {
+      "price": "Rs. 1200",
+      "name": "Regular Fit Straight Jeans",
+      "id": 35,
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Jeans"
+      },
+      "brand": "H\u0026M"
+    },
+    {
+      "price": "Rs. 1400",
+      "name": "Grunt Blue Slim Fit Jeans",
+      "id": 37,
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Jeans"
+      },
+      "brand": "Polo"
+    },
+    {
+      "price": "Rs. 2300",
+      "name": "Rose Pink Embroidered Maxi Dress",
+      "id": 38,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Dress"
+      },
+      "brand": "Madame"
+    },
+    {
+      "price": "Rs. 3000",
+      "name": "Cotton Silk Hand Block Print Saree",
+      "id": 39,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Saree"
+      },
+      "brand": "Biba"
+    },
+    {
+      "price": "Rs. 3500",
+      "name": "Rust Red Linen Saree",
+      "id": 40,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Saree"
+      },
+      "brand": "Biba"
+    },
+    {
+      "price": "Rs. 5000",
+      "name": "Beautiful Peacock Blue Cotton Linen Saree",
+      "id": 41,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Saree"
+      },
+      "brand": "Madame"
+    },
+    {
+      "price": "Rs. 1400",
+      "name": "Lace Top For Women",
+      "id": 42,
+      "category": {
+        "usertype": {
+          "usertype": "Women"
+        },
+        "category": "Tops"
+      },
+      "brand": "Mast \u0026 Harbour"
+    },
+    {
+      "price": "Rs. 1389",
+      "name": "GRAPHIC DESIGN MEN T SHIRT - BLUE",
+      "id": 43,
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Tshirts"
+      },
+      "brand": "Mast \u0026 Harbour"
+    }
+  ]
+}

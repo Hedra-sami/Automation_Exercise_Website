@@ -1,0 +1,20 @@
+Headers:
+_______________
+
+Content-Type=application/x-www-form-urlencoded
+
+Form Parameters:
+_______________
+
+name=inga.carter
+email=Latonianull@gmail.com
+password=net.datafaker.service.RandomService@1
+firstname=Latonia
+lastname=Zieme
+address1=net.datafaker.providers.base.Address@443b9ebb
+country=net.datafaker.providers.base.Country@5ec25b61
+zipcode=13886
+state=Pennsylvania
+city=Lake Adolfoshire
+mobile_number=(706) 585-1000 x8745
+

@@ -1,0 +1,19 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 5' test cases in the current suite                                        
+                                           Test Method: 'Tests.account_user_api.deleteaccountapitest'                                           
+                                                     Test Description: 'Delete Account Test'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @02-04-2024 20:31:06.0344 PM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @02-04-2024 20:31:06.0349 PM
+[ReportManager] Assertion Passed: "200" is equal to "200". @02-04-2024 20:31:06.0351 PM
+[ReportManager] Evaluating the actual response status code 200 against the expected one 200. @02-04-2024 20:31:06.0352 PM
+[ReportManager] Request details:  "DELETE | Target Status Code: 200 | Service URL: https://automationexercise.com/api/deleteAccount | Content Type: application/x-www-form-urlencoded | Response Time: 832ms". @02-04-2024 20:31:06.0405 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @02-04-2024 20:31:06.0407 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @02-04-2024 20:31:06.0411 PM
+[ReportManager] Get response jsonvalue "message". @02-04-2024 20:31:06.0423 PM
+[ReportManager] Expected "Account deleted!", and actual "Account deleted!" @02-04-2024 20:31:06.0425 PM
+[ReportManager] Verification "ValidateEquals" PASSED. Expected "Account deleted!" and Actual "Account deleted!". Comparison Type "EQUALS". Validation Type "POSITIVE". @02-04-2024 20:31:06.0426 PM
+[ReportManager] Verification Passed: the API response extracted value from the JSON path "message" is equal to "Account deleted!". @02-04-2024 20:31:06.0428 PM
+[ReportManager] the API response extracted value from the JSON path "message" is equal to "Account deleted!". @02-04-2024 20:31:06.0428 PM

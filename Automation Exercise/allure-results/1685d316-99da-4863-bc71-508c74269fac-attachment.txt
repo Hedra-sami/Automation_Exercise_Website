@@ -1,0 +1,716 @@
+[INFO ] 2024-04-02 20:30:56.095 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.1.20240224[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:30:56.113 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-04-02 20:30:56.158 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-04-02 20:30:56.157 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-04-02 20:30:56.187 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-04-02 20:30:56.964 [main] Utils - [TestNG] Running:
+  C:\Users\hedra\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[INFO ] 2024-04-02 20:30:57.052 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:30:57.143 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-04-02 20:30:57.155 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-04-02 20:30:57.664 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of beforemethod configuration method                                             
+                                                      'Tests.account_user_api.beforemethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:30:58.774 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 5' test cases in the current suite                                        
+                                              Test Method: 'Tests.account_user_api.registerapitest'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:30:59.942 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2024-04-02 20:31:01.203 [main] BasicClientConnectionManager - Get connection for route {s}->https://automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:01.203 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-04-02 20:31:01.288 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-04-02 20:31:01.325 [main] DefaultClientConnectionOperator - Connecting to automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:01.995 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-04-02 20:31:01.995 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-04-02 20:31:01.997 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-04-02 20:31:01.997 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-04-02 20:31:01.997 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:01.997 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:01.998 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:01.998 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:01.998 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-04-02 20:31:01.998 [main] DefaultClientConnection - Sending request: POST /api/createAccount HTTP/1.1
+[DEBUG] 2024-04-02 20:31:01.998 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-04-02 20:31:01.998 [main] wire -  >> "POST /api/createAccount HTTP/1.1[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.000 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.000 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.000 [main] wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.000 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.000 [main] wire -  >> "Content-Length: 341[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.001 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.001 [main] wire -  >> "Host: automationexercise.com[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.001 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.001 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.001 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.001 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.001 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.001 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.001 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-04-02 20:31:02.001 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.001 [] headers - >> Accept: */*
+[DEBUG] 2024-04-02 20:31:02.001 [] headers - >> Host: api.github.com
+[DEBUG] 2024-04-02 20:31:02.001 [main] headers - >> POST /api/createAccount HTTP/1.1
+[DEBUG] 2024-04-02 20:31:02.001 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-04-02 20:31:02.002 [main] headers - >> Accept: */*
+[DEBUG] 2024-04-02 20:31:02.002 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-04-02 20:31:02.002 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-04-02 20:31:02.002 [main] headers - >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+[DEBUG] 2024-04-02 20:31:02.002 [main] headers - >> Content-Length: 341
+[DEBUG] 2024-04-02 20:31:02.002 [main] headers - >> Host: automationexercise.com
+[DEBUG] 2024-04-02 20:31:02.002 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-04-02 20:31:02.002 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-04-02 20:31:02.002 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-04-02 20:31:02.003 [main] wire -  >> "name=inga.carter&email=Latonianull%40gmail.com&password=net.datafaker.service.RandomService%401&firstname=Latonia&lastname=Zieme&address1=net.datafaker.providers.base.Address%40443b9ebb&country=net.datafaker.providers.base.Country%405ec25b61&zipcode=13886&state=Pennsylvania&city=Lake%20Adolfoshire&mobile_number=%28706%29%20585-1000%20x8745"
+[DEBUG] 2024-04-02 20:31:02.242 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.249 [] wire -  << "Server: GitHub.com[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.249 [] wire -  << "Date: Tue, 02 Apr 2024 18:31:05 GMT[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.249 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.250 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.250 [] wire -  << "Vary: Accept, Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.250 [] wire -  << "ETag: W/"220996f1291f7b127a181732a2d18e961ddd9904b557090577984d64de18ba2e"[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.251 [] wire -  << "Last-Modified: Tue, 02 Apr 2024 12:08:53 GMT[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.251 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.252 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.252 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.252 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.254 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.254 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.254 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.254 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.255 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.255 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.255 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.255 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.256 [] wire -  << "X-RateLimit-Remaining: 57[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.256 [] wire -  << "X-RateLimit-Reset: 1712085045[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.256 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.256 [] wire -  << "X-RateLimit-Used: 3[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.257 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.257 [] wire -  << "Content-Length: 1189[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.257 [] wire -  << "X-GitHub-Request-Id: DDAC:18C985:A509718:A5B6CC3:660C4EE8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.257 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.260 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:02.261 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:02.261 [] headers - << Server: GitHub.com
+[DEBUG] 2024-04-02 20:31:02.261 [] headers - << Date: Tue, 02 Apr 2024 18:31:05 GMT
+[DEBUG] 2024-04-02 20:31:02.261 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-04-02 20:31:02.261 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-04-02 20:31:02.262 [] headers - << Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-04-02 20:31:02.262 [] headers - << ETag: W/"220996f1291f7b127a181732a2d18e961ddd9904b557090577984d64de18ba2e"
+[DEBUG] 2024-04-02 20:31:02.262 [] headers - << Last-Modified: Tue, 02 Apr 2024 12:08:53 GMT
+[DEBUG] 2024-04-02 20:31:02.262 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-04-02 20:31:02.262 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-04-02 20:31:02.263 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-04-02 20:31:02.263 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-04-02 20:31:02.263 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-04-02 20:31:02.264 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-04-02 20:31:02.264 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-04-02 20:31:02.264 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-04-02 20:31:02.264 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-04-02 20:31:02.265 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-04-02 20:31:02.265 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-04-02 20:31:02.265 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-04-02 20:31:02.265 [] headers - << X-RateLimit-Remaining: 57
+[DEBUG] 2024-04-02 20:31:02.265 [] headers - << X-RateLimit-Reset: 1712085045
+[DEBUG] 2024-04-02 20:31:02.266 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-04-02 20:31:02.266 [] headers - << X-RateLimit-Used: 3
+[DEBUG] 2024-04-02 20:31:02.266 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-04-02 20:31:02.266 [] headers - << Content-Length: 1189
+[DEBUG] 2024-04-02 20:31:02.266 [] headers - << X-GitHub-Request-Id: DDAC:18C985:A509718:A5B6CC3:660C4EE8
+[DEBUG] 2024-04-02 20:31:02.321 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-04-02 20:31:02.325 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Wao[0xdb]6[0x10][0xfd]+[0x84][0x8a]b@[0x10]S[0x96],;[0x8e][0x80][0xa2][[0xea][0xb4][0xcd][0x87]$[0xe8][0x1a]`[0xc0][0xba][0xc2][0xa0])Zb#[0x91],I[0xd9]q[0x8d][0xfc][0xf7]"
+[DEBUG] 2024-04-02 20:31:02.327 [] wire -  << "[0x1d])[0xc5]I[0x84][0xc2]-j[0x15][0x9]b[0x9a][0x11][0xdf][0xdd][0xbd];[0xbe];m[0x83]Z[0x97]A[0x1a][0x14][0xd6]*[0x93][0x86]!Q[0x1c][0xe7][0xdc][0x16][0xf5][0x2]SY[0x85][0x9a])i[0xc2][0x8f][0x5]Y[0xda][0xf7][0x1f][0xc2][0x8f][0xef][0xff]z{3?[0xbf]zwqu[0xe][0xff]*[0x19]1[0xcc][0x84]Qr:[0x9a][0xe][0xe3]h[0x1a][0x1c][0x7][0xc4][0x18]f[0xcd][0xbc]?[0xcc][0xb0]A[0x4][0xe8]Z[0x95][0x92]d[0x1d][0xe8]f[0xd3][0xfc][0xb2][0xcb]-[0xfc][0xf6][0xb5] [0x15];.[0xc9][0x82][0x95][0xf7]`[0xab][0xb0]U[0xd9][0xb1][0xf4][0x84][0x94][0xfd]tX[0x92][0x87]S[0x1c][0xe3]x[0x18]'[0xc3]d[0x18][0x3][0x1c][0xcf][0x82]t[0xc7][0x12][0x90]T[0xdb]B[0xea] [0xdd][0x6][0xa5][0xcc][0xb9][0x0][0xf6][0x1b][0xf0][0x1][0xa1][0x96]Ka>-[0xa4][0xfd][0xdc][0x1e]K[0xa2][0xe9][0xe9]4[0x9e][0xc6][0xc7][0x81][0x90][0x19][0x9b];[0xa4][0xe0]rv9[0xf9]P[0x9d][0xe][0xaf]f[0xe7][0xc9][0xf5]M[0xbe][0xb9][0x9e]][0xbc]r[0xdc][0xaf][0x88]%[0xba][0xcb][0xbd][0xdf]| [0xa8]6LS),[0x13][0xd6][0xa7][0x97][0x8b]0[0x1a][0x8f]&[0xd3][0xd7][0xab]W[0x9] [0xe4][0xba][0xc5][0xf0]f[0x1c][0xe7][0xfb]j[0xc3][0x81][0x99][0xf0][0xb9][0xeb]/[0xc7]g[0xe0][0xfc][0xcb][0xf1][0xec][0x87]$[0x12][0xa5][0xba][0x87][0xe1][0xcc]R[0x96][0xa5]\[0x3]n7[0x8c][0xe7]e[0xb9][0xd7]t[0xb8][0x3][0xd9][0x1]r[0x91][0x1f][0xe][0x8] [0xdb]P[0xda][0x82][0x1][0xc7][0x10][0xba][0xab][0x93][0x9c][0x9b][0x1f]U[0xfb]~W=[0xc0][0x16]H4[0x16]r[0xeb] [\r][0xa4]K[0xb3]n[0x9d]w[0xae][0xe5]~[0xd0][0x16][0x2][0x9c]][0xb][0xf0]s[0xeb]o[0xb1][0xc7][0xae][0x17][0x86]j[0xae]|[0x95][0x1d]B[0xc8]3 [0x0][0x96]:'[0x82]#[0x7][0x3][0x3][0x90][0x1]</;[0x87]8[0xe8][0x1][0x0][0x88][0xad][0xa0][0xd4][0xf]Bj[0x10][0xb6][0xa1][0xd2]|E[0xe8][0xc6][0xd1][0xa8][0x19]e|[0x5]9:[0x1c][0xbd][0x3][0x5][0xe0]v[0xa3][0x18]\[0xbe]3i][0xc2][0xb8]es[0x92]UN$[0x96][0xa4]4[0xec][0xfe][0xa9][0xe][0xfc]}>[0xbf]][0xcf][0xae][0xdf][0xbc]c7[0x13][0x93]\[0x8c][0xa3][0xbb][0x89][0x3] [0xf9][0xdc][0xa9][0x19][0x80]td[0x8]*+gv[0xe][0x17][0xbf][0xe2][0x96][0x9b][0x2][0x9e][0xa8][0x8]@[0x3][0xe6]w[0x9f][0xcf]4[0xc8]~k[0xf8]8P[0x9a][0xb5][0x92][0xbf][0xdb][0xa2][0x9a][0x11][0xb]<[0x10]x*pz7[0x18][0xc2]o|[0x13][\r][0xd3]h[0x9c]&[0xa3][0x1]Z[0xd5][0x8b][0x12]l}[0xef][0xa9]8[0x1d]N[0xd3][0xb1][0xaa]U[0xf9][0xf4][0xd3]g[0x17][0x80]^[0x90][0xb2][0xab][0xbf]?[0xdf][0x98][0xda][0xf3]][0x11][0xfe][0xc6][0xd5]A[0xb0][0xed][0xf9].[0xec]Bf[0x1b][0x88][0xfe][0xc5][0xb][0xf4]OA[0xec][0x1f][0x6][0xbd])[0x88][0xc8]Y[0xf6][0x9f]8Bgu[0xa5][0x10][0x97][0x98][0xd6][0xb4][0xae][0x16]L[0xa7][0xf][0x8b][0x81][0xe2]T:![0x6][0xfa][0x99]FK-+t[0x82][0xa3]1[0x1e]"+[0xdd]j[0x82]#[0xb4][0xd8][0xa0]?3[0xa6][0x98][0xc8][0x8]h*[0xe2][0x2]=4[0xe9][0x1f][0xf5]"U[0x97]%[0x8][0xfb]x[0xba]s[0xa2]9[0x11]R[0xe8]!_[0xcb][0xb6][0xcf]4fcgq[0xd4][0x83][0xb1][0x93][0x9d][0xb1][0xb6][0x8d][0x85][0xb4]`[0xf4]V[0xd6][0xb6]14r[0x86][0x92][0x1e][0xc]M[0xf6]S[0xfb][0x5]z[0xd8]oc4[0xd9]o[0xdb]2cE[0xfe][0xdb][0xac][0xc7];[0xeb][0x90]H[0x10]#[0x97]O[0xf8][0x18][0x10]A[0xca][0x8d][0xe1]f@K[0xfe],[0xb9][0x11][0x8e][0x9a][0x92]Jp[0x2][0x8b][0xc3]+j[0xbc][0xf3][0x0][0x94][0x1a][0x13][0xa3][0x18][0xb5]_[0xd2][0xf6]s[0xcd][0xc8][0xea][0xa1][0x9a]#|[0x8a][0xe3][0x8][0xfb][0xea][0xf2][0xeb][0xb8][0x7][0xeb]#g][0x82][\r][0xcd]3[0xe8][0xc6][0xc8][0xd1][0x8d][0xe0][0x1a]-y[0xe][0xd7][0xc3]XF2$[0x97][0xc8][0xd4] [0x9b][0xde][0xdc][0xa5],[0xc8][0x2][0xfe]p[0xf6]+[0xd7][0xe7][0xf4]y[0xb0][0x8a]@A[0xe3][\n]"
+[DEBUG] 2024-04-02 20:31:02.349 [] wire -  << "b[0x14]X[0x95]5Ln&[0xf5][0xdf][0x6][0xb9][0xca][0x7][0xcd]N[[0xea]0[0xfe]E[0xfe]^[0xb9]9[0xf0][0xf0][0xc0]'[0xc3]'[0x89][0xaf]p.e^2L[0xf5]FY[0x89]-[0x17][0xb7][0xa9][0xfb]3[0xc8][0xa9][0xba][0xad]L[0xe3][0x82][0xe3][0xdc][0x8b][0x9][0x94][0xc0][0xb0][0x8f][0xd4]O[0x1e][0x8b][0xcf][0xa5][0xde][0xc0][0xf4]/x][0x15]_w[0xcb][0xf4]ao[0xf0]x[0x5][0x13][0x1c]M[0x1b]*`u[0xda][0x87][0xa8]M[0x1e]u[0x6][0x94][0x15][0xa6]Hp"u[0x6]][0xf1]C[0xb3]o[0xc2][0x87][0x82]k[0xc2]w[0x8b]>2[0xe0][0xb][0xff]\[0x80][0xb6]S[0x86][0xa0][0x17]!7ah[0xa0]=?[0xbc][0xd0]&^[0xa7]g[0x1b][0xe8][0xc2][0x9c]"E4t?V[0xb6][0xe3][0x14][0xaa]@[0xb3][0xf][0xb7]q[0xe2]K[0xe8][0x6].[0x8c]s[0xd9][0xb5][p[0x1e][0xa6][0xc0][0x1e][0x90]}a,[0xa5][0xa6][0xec]L[0xcb]5[0x0][0xcf]`[0xee]t[0xef]jn[0x13][0xd1][0x2][0x9a][0x1b]P&[0xe0]+[0xd7]l)[0xef]z0[0xe9]ex[0xc9][0xef]X[0x6]y[0xc8]53[0x6]bA[0xdc][0x98][0x9a][0xa1]5[0xbc][0xbd]"[0x18]s[0x19][0x13][0xa6][0x90][0xb6][0x8f][0x8][0x9f]&?{$[0xf]-JIo{[0x8][0xc7]w4[0x92]yM[0x13]l[0x8d][0x94][0x96][0xca][0xe5][0x87][0xf5][0xe1]<[0xa8][0x98][0xfb]9:z[0xb]SA;[0x9d][0xc0]{[0xe7][0xd1]Q[0xfa][0xd3][0xf3][0x4]L[0x8c]P[0x95][0xc]F[0x1f]Pt[0xf7]Z;[0x8a][0x13][0x8c]qg[0xbc][0xac][0xe0][0xf6][0xf9][0x17][0xb]*k[0x1][0x13]a|[0xff]?[0xe5]!h[0x93]][0x10][0x0][0x0]"
+[DEBUG] 2024-04-02 20:31:02.350 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-04-02 20:31:02.684 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.684 [main] wire -  << "Date: Tue, 02 Apr 2024 18:31:05 GMT[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.684 [main] wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.685 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.685 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.685 [main] wire -  << "vary: Accept,Cookie,Accept-Encoding[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.685 [main] wire -  << "referrer-policy: same-origin[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.685 [main] wire -  << "x-frame-options: DENY[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.686 [main] wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.686 [main] wire -  << "allow: POST, OPTIONS[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.686 [main] wire -  << "x-powered-by: Phusion Passenger 6.0.7[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.686 [main] wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.688 [main] wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.688 [main] wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=rvo7EkWcPygPl0rjiy8gT9II%2F2U9TYX2VrIg6CEpl6efbc2lsQHRRXHh3%2FlxQr9Azl6D9EqBZDu6PkmHoVBSzTk1WCuCGnQfGfnDaYTiQ%2Fa8dI1k1Yeip37XkSkPg0Svc0HLl2IzaEra"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.688 [main] wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.688 [main] wire -  << "Server: cloudflare[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.688 [main] wire -  << "CF-RAY: 86e2e4cfe8a03c92-CDG[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.689 [main] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.689 [main] wire -  << "alt-svc: h3=":443"; ma=86400[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.689 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.689 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:02.689 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:02.689 [main] headers - << Date: Tue, 02 Apr 2024 18:31:05 GMT
+[DEBUG] 2024-04-02 20:31:02.689 [main] headers - << Content-Type: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:02.690 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2024-04-02 20:31:02.690 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-04-02 20:31:02.690 [main] headers - << vary: Accept,Cookie,Accept-Encoding
+[DEBUG] 2024-04-02 20:31:02.690 [main] headers - << referrer-policy: same-origin
+[DEBUG] 2024-04-02 20:31:02.690 [main] headers - << x-frame-options: DENY
+[DEBUG] 2024-04-02 20:31:02.690 [main] headers - << x-content-type-options: nosniff
+[DEBUG] 2024-04-02 20:31:02.690 [main] headers - << allow: POST, OPTIONS
+[DEBUG] 2024-04-02 20:31:02.690 [main] headers - << x-powered-by: Phusion Passenger 6.0.7
+[DEBUG] 2024-04-02 20:31:02.690 [main] headers - << status: 200 OK
+[DEBUG] 2024-04-02 20:31:02.691 [main] headers - << CF-Cache-Status: DYNAMIC
+[DEBUG] 2024-04-02 20:31:02.691 [main] headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=rvo7EkWcPygPl0rjiy8gT9II%2F2U9TYX2VrIg6CEpl6efbc2lsQHRRXHh3%2FlxQr9Azl6D9EqBZDu6PkmHoVBSzTk1WCuCGnQfGfnDaYTiQ%2Fa8dI1k1Yeip37XkSkPg0Svc0HLl2IzaEra"}],"group":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:02.691 [main] headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:02.691 [main] headers - << Server: cloudflare
+[DEBUG] 2024-04-02 20:31:02.691 [main] headers - << CF-RAY: 86e2e4cfe8a03c92-CDG
+[DEBUG] 2024-04-02 20:31:02.691 [main] headers - << Content-Encoding: gzip
+[DEBUG] 2024-04-02 20:31:02.691 [main] headers - << alt-svc: h3=":443"; ma=86400
+[DEBUG] 2024-04-02 20:31:02.694 [main] RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:02.695 [main] wire -  << "49[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.695 [main] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xaa]V*J-.[0xc8][0xcf]+Nu[0xce]OIU[0xb2]R020[0xd4]QP[0xca]M-.NL[0x7][0xf1][0x95]B[0x8b]S[0x8b][0x14][0x92][0x8b]R[0x13]KRS[0x14][0x95]j[0x1][0x0][0x0][0x0][0xff][0xff][0x3][0x0]lD[0xcc]c1[0x0][0x0][0x0]"
+[DEBUG] 2024-04-02 20:31:02.695 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.696 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.696 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:02.696 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2024-04-02 20:31:02.702 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[DEBUG] 2024-04-02 20:31:02.721 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@461b57c5
+[DEBUG] 2024-04-02 20:31:02.722 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-04-02 20:31:02.762 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-04-02 20:31:02.792 [main] ReportManager - Evaluating the actual response status code 200 against the expected one 200.
+[DEBUG] 2024-04-02 20:31:02.794 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1847da64
+[DEBUG] 2024-04-02 20:31:02.794 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-04-02 20:31:04.295 [] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-04-02 20:31:04.433 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2024-04-02 20:31:04.434 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2024-04-02 20:31:05.402 [main] CompiledPath - Evaluating path: $['message']
+[DEBUG] 2024-04-02 20:31:05.419 [main] CompiledPath - Evaluating path: $['message']
+[INFO ] 2024-04-02 20:31:05.421 [main] ReportManager - Get response jsonvalue "message".
+[INFO ] 2024-04-02 20:31:05.423 [main] ReportManager - Expected "User created!", and actual "User created!"
+[INFO ] 2024-04-02 20:31:05.445 [main] ReportManager - Verification "ValidateEquals" PASSED. Expected "User created!" and Actual "User created!". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-04-02 20:31:05.447 [main] ReportManager - the API response extracted value from the JSON path "message" is equal to "User created!".
+[INFO ] 2024-04-02 20:31:05.458 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: registerapitest'
+[INFO ] 2024-04-02 20:31:05.458 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'Tests.account_user_api.registerapitest'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:31:05.493 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of beforemethod configuration method                                             
+                                                      'Tests.account_user_api.beforemethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:31:05.504 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 5' test cases in the current suite                                        
+                                           Test Method: 'Tests.account_user_api.deleteaccountapitest'                                           
+                                                     Test Description: 'Delete Account Test'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-04-02 20:31:05.521 [main] BasicClientConnectionManager - Get connection for route {s}->https://automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:05.521 [main] DefaultClientConnectionOperator - Connecting to automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:05.698 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-04-02 20:31:05.698 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-04-02 20:31:05.698 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:05.698 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:05.698 [main] DefaultClientConnection - Sending request: DELETE /api/deleteAccount HTTP/1.1
+[DEBUG] 2024-04-02 20:31:05.698 [main] wire -  >> "DELETE /api/deleteAccount HTTP/1.1[\r][\n]"
+[DEBUG] 2024-04-02 20:31:05.698 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-04-02 20:31:05.698 [main] wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:05.698 [main] wire -  >> "Content-Length: 78[\r][\n]"
+[DEBUG] 2024-04-02 20:31:05.698 [main] wire -  >> "Host: automationexercise.com[\r][\n]"
+[DEBUG] 2024-04-02 20:31:05.698 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:05.698 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-04-02 20:31:05.699 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-04-02 20:31:05.699 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:05.699 [main] headers - >> DELETE /api/deleteAccount HTTP/1.1
+[DEBUG] 2024-04-02 20:31:05.699 [main] headers - >> Accept: */*
+[DEBUG] 2024-04-02 20:31:05.699 [main] headers - >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+[DEBUG] 2024-04-02 20:31:05.699 [main] headers - >> Content-Length: 78
+[DEBUG] 2024-04-02 20:31:05.699 [main] headers - >> Host: automationexercise.com
+[DEBUG] 2024-04-02 20:31:05.699 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-04-02 20:31:05.699 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-04-02 20:31:05.699 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-04-02 20:31:05.699 [main] wire -  >> "email=Latonianull%40gmail.com&password=net.datafaker.service.RandomService%401"
+[DEBUG] 2024-04-02 20:31:06.329 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.329 [main] wire -  << "Date: Tue, 02 Apr 2024 18:31:09 GMT[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.330 [main] wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.330 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.331 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.331 [main] wire -  << "vary: Accept,Cookie,Accept-Encoding[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.331 [main] wire -  << "referrer-policy: same-origin[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.331 [main] wire -  << "x-frame-options: DENY[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.331 [main] wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.332 [main] wire -  << "allow: DELETE, OPTIONS[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.332 [main] wire -  << "x-powered-by: Phusion Passenger 6.0.7[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.332 [main] wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.333 [main] wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.333 [main] wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=VPjb9wrW%2BtsR47SilXjJndmipd4em9COzzVcBDedGxQLmkMInT6%2B4c%2FMV6BO%2B4OqrpEjvnXbn%2BFSSkITM6ofAm9xDIE5NsiiREwI2EVWos4Q8aWe9pcJ%2BEHA3W3RS3%2Bzh9dx%2BL7j%2BdyS"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.333 [main] wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.334 [main] wire -  << "Server: cloudflare[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.334 [main] wire -  << "CF-RAY: 86e2e4e6f96af1a0-CDG[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.335 [main] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.335 [main] wire -  << "alt-svc: h3=":443"; ma=86400[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.335 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.335 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:06.336 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:06.336 [main] headers - << Date: Tue, 02 Apr 2024 18:31:09 GMT
+[DEBUG] 2024-04-02 20:31:06.336 [main] headers - << Content-Type: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:06.336 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2024-04-02 20:31:06.337 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-04-02 20:31:06.337 [main] headers - << vary: Accept,Cookie,Accept-Encoding
+[DEBUG] 2024-04-02 20:31:06.337 [main] headers - << referrer-policy: same-origin
+[DEBUG] 2024-04-02 20:31:06.337 [main] headers - << x-frame-options: DENY
+[DEBUG] 2024-04-02 20:31:06.337 [main] headers - << x-content-type-options: nosniff
+[DEBUG] 2024-04-02 20:31:06.337 [main] headers - << allow: DELETE, OPTIONS
+[DEBUG] 2024-04-02 20:31:06.338 [main] headers - << x-powered-by: Phusion Passenger 6.0.7
+[DEBUG] 2024-04-02 20:31:06.338 [main] headers - << status: 200 OK
+[DEBUG] 2024-04-02 20:31:06.338 [main] headers - << CF-Cache-Status: DYNAMIC
+[DEBUG] 2024-04-02 20:31:06.338 [main] headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=VPjb9wrW%2BtsR47SilXjJndmipd4em9COzzVcBDedGxQLmkMInT6%2B4c%2FMV6BO%2B4OqrpEjvnXbn%2BFSSkITM6ofAm9xDIE5NsiiREwI2EVWos4Q8aWe9pcJ%2BEHA3W3RS3%2Bzh9dx%2BL7j%2BdyS"}],"group":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:06.338 [main] headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:06.339 [main] headers - << Server: cloudflare
+[DEBUG] 2024-04-02 20:31:06.339 [main] headers - << CF-RAY: 86e2e4e6f96af1a0-CDG
+[DEBUG] 2024-04-02 20:31:06.339 [main] headers - << Content-Encoding: gzip
+[DEBUG] 2024-04-02 20:31:06.339 [main] headers - << alt-svc: h3=":443"; ma=86400
+[DEBUG] 2024-04-02 20:31:06.340 [main] RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:06.340 [main] wire -  << "4c[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.340 [main] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xaa]V*J-.[0xc8][0xcf]+Nu[0xce]OIU[0xb2]R020[0xd0]QP[0xca]M-.NL[0x7][0xf1][0x95][0x1c][0x93][0x93][0xf3]K[0xf3]J[0x14]RRsRKRS[0x14][0x95]j[0x1][0x0][0x0][0x0][0xff][0xff][0x3][0x0][0xcc][0xd3][0x1a]44[0x0][0x0][0x0]"
+[DEBUG] 2024-04-02 20:31:06.341 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.341 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.341 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.342 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2024-04-02 20:31:06.345 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-04-02 20:31:06.349 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-04-02 20:31:06.352 [main] ReportManager - Evaluating the actual response status code 200 against the expected one 200.
+[DEBUG] 2024-04-02 20:31:06.354 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7180b25f
+[DEBUG] 2024-04-02 20:31:06.354 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-04-02 20:31:06.407 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2024-04-02 20:31:06.411 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2024-04-02 20:31:06.421 [main] CompiledPath - Evaluating path: $['message']
+[DEBUG] 2024-04-02 20:31:06.422 [main] CompiledPath - Evaluating path: $['message']
+[INFO ] 2024-04-02 20:31:06.423 [main] ReportManager - Get response jsonvalue "message".
+[INFO ] 2024-04-02 20:31:06.425 [main] ReportManager - Expected "Account deleted!", and actual "Account deleted!"
+[INFO ] 2024-04-02 20:31:06.426 [main] ReportManager - Verification "ValidateEquals" PASSED. Expected "Account deleted!" and Actual "Account deleted!". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-04-02 20:31:06.428 [main] ReportManager - the API response extracted value from the JSON path "message" is equal to "Account deleted!".
+[INFO ] 2024-04-02 20:31:06.434 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: deleteaccountapitest'
+[INFO ] 2024-04-02 20:31:06.435 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                Finished Execution of Test Method: 'Tests.account_user_api.deleteaccountapitest'                                
+                                                     Test Description: 'Delete Account Test'                                                     
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:31:06.446 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of beforemethod configuration method                                             
+                                                      'Tests.account_user_api.beforemethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:31:06.458 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 5' test cases in the current suite                                        
+                                              Test Method: 'Tests.account_user_api.getdataapitest'                                              
+                                                    Test Description: 'Get Account Data Test'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-04-02 20:31:06.524 [main] BasicClientConnectionManager - Get connection for route {s}->https://automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:06.525 [main] DefaultClientConnectionOperator - Connecting to automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:06.688 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-04-02 20:31:06.689 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-04-02 20:31:06.689 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:06.689 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:06.689 [main] DefaultClientConnection - Sending request: GET /api/getUserDetailByEmail?email=Latonianull%40gmail.com HTTP/1.1
+[DEBUG] 2024-04-02 20:31:06.689 [main] wire -  >> "GET /api/getUserDetailByEmail?email=Latonianull%40gmail.com HTTP/1.1[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.690 [main] wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.690 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.690 [main] wire -  >> "Host: automationexercise.com[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.690 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.691 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.691 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.691 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:06.691 [main] headers - >> GET /api/getUserDetailByEmail?email=Latonianull%40gmail.com HTTP/1.1
+[DEBUG] 2024-04-02 20:31:06.691 [main] headers - >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+[DEBUG] 2024-04-02 20:31:06.691 [main] headers - >> Accept: */*
+[DEBUG] 2024-04-02 20:31:06.692 [main] headers - >> Host: automationexercise.com
+[DEBUG] 2024-04-02 20:31:06.692 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-04-02 20:31:06.692 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-04-02 20:31:06.692 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-04-02 20:31:07.314 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.315 [main] wire -  << "Date: Tue, 02 Apr 2024 18:31:10 GMT[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.315 [main] wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.315 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.315 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.315 [main] wire -  << "vary: Accept,Cookie,Accept-Encoding[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.317 [main] wire -  << "referrer-policy: same-origin[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.317 [main] wire -  << "x-frame-options: DENY[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.317 [main] wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.317 [main] wire -  << "allow: GET, PUT, POST, DELETE, OPTIONS[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.317 [main] wire -  << "x-powered-by: Phusion Passenger 6.0.7[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.317 [main] wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.317 [main] wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.318 [main] wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=QxYaP4vepQb5Sx7UED8bv4KHfjvKkFxVOgfqAdxnmngt6yUIkLUzdbviRdp6CT9FiNFzBsHU%2Fo9Oz0JbCYdqW9JTRC5k9YYv8V2polaS%2B0Xx3uRZhm2xnx5zzTenvYrGzOa8VZNyhWVz"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.318 [main] wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.318 [main] wire -  << "Server: cloudflare[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.319 [main] wire -  << "CF-RAY: 86e2e4ed3d149e55-CDG[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.319 [main] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.319 [main] wire -  << "alt-svc: h3=":443"; ma=86400[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.319 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.320 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:07.321 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:07.321 [main] headers - << Date: Tue, 02 Apr 2024 18:31:10 GMT
+[DEBUG] 2024-04-02 20:31:07.321 [main] headers - << Content-Type: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:07.321 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2024-04-02 20:31:07.321 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-04-02 20:31:07.322 [main] headers - << vary: Accept,Cookie,Accept-Encoding
+[DEBUG] 2024-04-02 20:31:07.322 [main] headers - << referrer-policy: same-origin
+[DEBUG] 2024-04-02 20:31:07.322 [main] headers - << x-frame-options: DENY
+[DEBUG] 2024-04-02 20:31:07.322 [main] headers - << x-content-type-options: nosniff
+[DEBUG] 2024-04-02 20:31:07.322 [main] headers - << allow: GET, PUT, POST, DELETE, OPTIONS
+[DEBUG] 2024-04-02 20:31:07.322 [main] headers - << x-powered-by: Phusion Passenger 6.0.7
+[DEBUG] 2024-04-02 20:31:07.323 [main] headers - << status: 200 OK
+[DEBUG] 2024-04-02 20:31:07.323 [main] headers - << CF-Cache-Status: DYNAMIC
+[DEBUG] 2024-04-02 20:31:07.323 [main] headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=QxYaP4vepQb5Sx7UED8bv4KHfjvKkFxVOgfqAdxnmngt6yUIkLUzdbviRdp6CT9FiNFzBsHU%2Fo9Oz0JbCYdqW9JTRC5k9YYv8V2polaS%2B0Xx3uRZhm2xnx5zzTenvYrGzOa8VZNyhWVz"}],"group":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:07.323 [main] headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:07.323 [main] headers - << Server: cloudflare
+[DEBUG] 2024-04-02 20:31:07.323 [main] headers - << CF-RAY: 86e2e4ed3d149e55-CDG
+[DEBUG] 2024-04-02 20:31:07.323 [main] headers - << Content-Encoding: gzip
+[DEBUG] 2024-04-02 20:31:07.323 [main] headers - << alt-svc: h3=":443"; ma=86400
+[DEBUG] 2024-04-02 20:31:07.324 [main] RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:07.325 [main] wire -  << "69[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.325 [main] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]$[0xc8]1[\n]"
+[DEBUG] 2024-04-02 20:31:07.325 [main] wire -  << "[0x80]0[0xc][0x5][0xd0][0xab]|3;88[0xb9][0x89]')m[0xb4][0x5]M[0xa4][0x89][0x88][0x88]w[0x17]q|[0xef][0xa6][0xca][0xb6][0xab][0x18]O[0x9a][0x98][0x6][0xf4]][0xdf][0x82]66[0xb][0xcb]g[0x1a]c[0xd4]C[0x1c][0xa2][0x8e]Y[0xf]I8[0x8b]gx.[0x6][0xde]BY[x[0xbd][0x10]D=s[0xfd][0xab][0xa1][0xe7][0x5][0x0][0x0][0xff][0xff][0x3][0x0][0x92][0xb4][\r][0x8e]Y[0x0][0x0][0x0]"
+[DEBUG] 2024-04-02 20:31:07.326 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.326 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.326 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.326 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2024-04-02 20:31:07.329 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-04-02 20:31:07.335 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-04-02 20:31:07.338 [main] ReportManager - Evaluating the actual response status code 200 against the expected one 200.
+[DEBUG] 2024-04-02 20:31:07.339 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@699d04a9
+[DEBUG] 2024-04-02 20:31:07.339 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-04-02 20:31:07.393 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2024-04-02 20:31:07.396 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2024-04-02 20:31:07.431 [main] BasicClientConnectionManager - Get connection for route {s}->https://automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:07.432 [main] DefaultClientConnectionOperator - Connecting to automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:07.603 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-04-02 20:31:07.604 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-04-02 20:31:07.604 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:07.604 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:07.605 [main] DefaultClientConnection - Sending request: GET /api/getUserDetailByEmail?email=Latonianull%40gmail.com HTTP/1.1
+[DEBUG] 2024-04-02 20:31:07.605 [main] wire -  >> "GET /api/getUserDetailByEmail?email=Latonianull%40gmail.com HTTP/1.1[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.606 [main] wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.606 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.606 [main] wire -  >> "Host: automationexercise.com[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.606 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.606 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.606 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.606 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:07.607 [main] headers - >> GET /api/getUserDetailByEmail?email=Latonianull%40gmail.com HTTP/1.1
+[DEBUG] 2024-04-02 20:31:07.607 [main] headers - >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+[DEBUG] 2024-04-02 20:31:07.607 [main] headers - >> Accept: */*
+[DEBUG] 2024-04-02 20:31:07.607 [main] headers - >> Host: automationexercise.com
+[DEBUG] 2024-04-02 20:31:07.607 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-04-02 20:31:07.609 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-04-02 20:31:07.609 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-04-02 20:31:08.231 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.231 [main] wire -  << "Date: Tue, 02 Apr 2024 18:31:11 GMT[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.232 [main] wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.232 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.232 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.233 [main] wire -  << "vary: Accept,Cookie,Accept-Encoding[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.233 [main] wire -  << "referrer-policy: same-origin[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.233 [main] wire -  << "x-frame-options: DENY[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.233 [main] wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.233 [main] wire -  << "allow: GET, PUT, POST, DELETE, OPTIONS[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.233 [main] wire -  << "x-powered-by: Phusion Passenger 6.0.7[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.234 [main] wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.234 [main] wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.235 [main] wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=rgbcUEugKnz453CuTgrhypL7s6XEu3tsGX8sWaSl7MrLzQtC5wopmMGE5QjzKQBaC5%2FnEi8W7i5TYg49OZ5G2aC79z%2FC8lqgPhUatekZZ9WhsrE830X5VK5fgZSS8jrsaE7eCWEA6QrC"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.235 [main] wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.235 [main] wire -  << "Server: cloudflare[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.236 [main] wire -  << "CF-RAY: 86e2e4f30d699e66-CDG[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.236 [main] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.237 [main] wire -  << "alt-svc: h3=":443"; ma=86400[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.237 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.237 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:08.237 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:08.238 [main] headers - << Date: Tue, 02 Apr 2024 18:31:11 GMT
+[DEBUG] 2024-04-02 20:31:08.238 [main] headers - << Content-Type: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:08.238 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2024-04-02 20:31:08.238 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-04-02 20:31:08.238 [main] headers - << vary: Accept,Cookie,Accept-Encoding
+[DEBUG] 2024-04-02 20:31:08.239 [main] headers - << referrer-policy: same-origin
+[DEBUG] 2024-04-02 20:31:08.239 [main] headers - << x-frame-options: DENY
+[DEBUG] 2024-04-02 20:31:08.239 [main] headers - << x-content-type-options: nosniff
+[DEBUG] 2024-04-02 20:31:08.239 [main] headers - << allow: GET, PUT, POST, DELETE, OPTIONS
+[DEBUG] 2024-04-02 20:31:08.239 [main] headers - << x-powered-by: Phusion Passenger 6.0.7
+[DEBUG] 2024-04-02 20:31:08.240 [main] headers - << status: 200 OK
+[DEBUG] 2024-04-02 20:31:08.240 [main] headers - << CF-Cache-Status: DYNAMIC
+[DEBUG] 2024-04-02 20:31:08.240 [main] headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=rgbcUEugKnz453CuTgrhypL7s6XEu3tsGX8sWaSl7MrLzQtC5wopmMGE5QjzKQBaC5%2FnEi8W7i5TYg49OZ5G2aC79z%2FC8lqgPhUatekZZ9WhsrE830X5VK5fgZSS8jrsaE7eCWEA6QrC"}],"group":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:08.240 [main] headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:08.240 [main] headers - << Server: cloudflare
+[DEBUG] 2024-04-02 20:31:08.241 [main] headers - << CF-RAY: 86e2e4f30d699e66-CDG
+[DEBUG] 2024-04-02 20:31:08.241 [main] headers - << Content-Encoding: gzip
+[DEBUG] 2024-04-02 20:31:08.241 [main] headers - << alt-svc: h3=":443"; ma=86400
+[DEBUG] 2024-04-02 20:31:08.242 [main] RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:08.242 [main] wire -  << "69[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.243 [main] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]$[0xc8]1[\n]"
+[DEBUG] 2024-04-02 20:31:08.243 [main] wire -  << "[0x80]0[0xc][0x5][0xd0][0xab]|3;88[0xb9][0x89]')m[0xb4][0x5]M[0xa4][0x89][0x88][0x88]w[0x17]q|[0xef][0xa6][0xca][0xb6][0xab][0x18]O[0x9a][0x98][0x6][0xf4]][0xdf][0x82]66[0xb][0xcb]g[0x1a]c[0xd4]C[0x1c][0xa2][0x8e]Y[0xf]I8[0x8b]gx.[0x6][0xde]BY[x[0xbd][0x10]D=s[0xfd][0xab][0xa1][0xe7][0x5][0x0][0x0][0xff][0xff][0x3][0x0][0x92][0xb4][\r][0x8e]Y[0x0][0x0][0x0]"
+[DEBUG] 2024-04-02 20:31:08.243 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.244 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.244 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.244 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2024-04-02 20:31:08.246 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-04-02 20:31:08.252 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-04-02 20:31:08.254 [main] ReportManager - Evaluating the actual response status code 200 against the expected one 200.
+[DEBUG] 2024-04-02 20:31:08.255 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@28a210fb
+[DEBUG] 2024-04-02 20:31:08.256 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-04-02 20:31:08.302 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2024-04-02 20:31:08.308 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2024-04-02 20:31:08.320 [main] CompiledPath - Evaluating path: $['message']
+[DEBUG] 2024-04-02 20:31:08.321 [main] CompiledPath - Evaluating path: $['message']
+[INFO ] 2024-04-02 20:31:08.323 [main] ReportManager - Get response jsonvalue "message".
+[INFO ] 2024-04-02 20:31:08.325 [main] ReportManager - Expected "Account not found with this email, try another email!", and actual "Account not found with this email, try another email!"
+[INFO ] 2024-04-02 20:31:08.327 [main] ReportManager - Verification "ValidateEquals" PASSED. Expected "Account not found with this email, try another email!" and Actual "Account not found with this email, try another email!". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-04-02 20:31:08.330 [main] ReportManager - the API response extracted value from the JSON path "message" is equal to "Account not found with this email, try another email!".
+[INFO ] 2024-04-02 20:31:08.337 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: getdataapitest'
+[INFO ] 2024-04-02 20:31:08.338 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'Tests.account_user_api.getdataapitest'                                   
+                                                    Test Description: 'Get Account Data Test'                                                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:31:08.359 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of beforemethod configuration method                                             
+                                                     'Tests.product_list_test.beforemethod'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:31:08.377 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 5' test cases in the current suite                                        
+                                            Test Method: 'Tests.product_list_test.getproductlisttest'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-04-02 20:31:08.466 [main] BasicClientConnectionManager - Get connection for route {s}->https://automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:08.466 [main] DefaultClientConnectionOperator - Connecting to automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:08.634 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-04-02 20:31:08.634 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-04-02 20:31:08.634 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:08.634 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:08.635 [main] DefaultClientConnection - Sending request: GET /api/productsList HTTP/1.1
+[DEBUG] 2024-04-02 20:31:08.635 [main] wire -  >> "GET /api/productsList HTTP/1.1[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.635 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.635 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.635 [main] wire -  >> "Host: automationexercise.com[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.635 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.635 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.635 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.635 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:08.635 [main] headers - >> GET /api/productsList HTTP/1.1
+[DEBUG] 2024-04-02 20:31:08.636 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-04-02 20:31:08.636 [main] headers - >> Accept: */*
+[DEBUG] 2024-04-02 20:31:08.636 [main] headers - >> Host: automationexercise.com
+[DEBUG] 2024-04-02 20:31:08.636 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-04-02 20:31:08.636 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-04-02 20:31:08.636 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-04-02 20:31:09.282 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.282 [main] wire -  << "Date: Tue, 02 Apr 2024 18:31:12 GMT[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.283 [main] wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.283 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.283 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.283 [main] wire -  << "vary: Accept,Cookie,Accept-Encoding[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.283 [main] wire -  << "referrer-policy: same-origin[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.283 [main] wire -  << "x-frame-options: DENY[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.284 [main] wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.284 [main] wire -  << "allow: GET, PUT, POST, DELETE, OPTIONS[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.284 [main] wire -  << "x-powered-by: Phusion Passenger 6.0.7[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.285 [main] wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.285 [main] wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.285 [main] wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=2O%2BnYlferW7q3K7Lafx2WQWwVeN3GOpyb6p7gY5SbG8P3Hu5uYItj7BcIcb8RWsyv14W9Tddp8czA829He2fBjT9aQ%2BIQCkQXe3PJKbx3cv7jH9e97QfCV8BHEQYG23Y2oObwOHxM6Cg"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.285 [main] wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.285 [main] wire -  << "Server: cloudflare[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.285 [main] wire -  << "CF-RAY: 86e2e4f95e226337-LHR[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.286 [main] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.286 [main] wire -  << "alt-svc: h3=":443"; ma=86400[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.286 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.286 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:09.286 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:09.286 [main] headers - << Date: Tue, 02 Apr 2024 18:31:12 GMT
+[DEBUG] 2024-04-02 20:31:09.286 [main] headers - << Content-Type: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:09.287 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2024-04-02 20:31:09.287 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-04-02 20:31:09.287 [main] headers - << vary: Accept,Cookie,Accept-Encoding
+[DEBUG] 2024-04-02 20:31:09.287 [main] headers - << referrer-policy: same-origin
+[DEBUG] 2024-04-02 20:31:09.287 [main] headers - << x-frame-options: DENY
+[DEBUG] 2024-04-02 20:31:09.287 [main] headers - << x-content-type-options: nosniff
+[DEBUG] 2024-04-02 20:31:09.287 [main] headers - << allow: GET, PUT, POST, DELETE, OPTIONS
+[DEBUG] 2024-04-02 20:31:09.287 [main] headers - << x-powered-by: Phusion Passenger 6.0.7
+[DEBUG] 2024-04-02 20:31:09.287 [main] headers - << status: 200 OK
+[DEBUG] 2024-04-02 20:31:09.288 [main] headers - << CF-Cache-Status: DYNAMIC
+[DEBUG] 2024-04-02 20:31:09.288 [main] headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=2O%2BnYlferW7q3K7Lafx2WQWwVeN3GOpyb6p7gY5SbG8P3Hu5uYItj7BcIcb8RWsyv14W9Tddp8czA829He2fBjT9aQ%2BIQCkQXe3PJKbx3cv7jH9e97QfCV8BHEQYG23Y2oObwOHxM6Cg"}],"group":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:09.288 [main] headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:09.288 [main] headers - << Server: cloudflare
+[DEBUG] 2024-04-02 20:31:09.288 [main] headers - << CF-RAY: 86e2e4f95e226337-LHR
+[DEBUG] 2024-04-02 20:31:09.288 [main] headers - << Content-Encoding: gzip
+[DEBUG] 2024-04-02 20:31:09.288 [main] headers - << alt-svc: h3=":443"; ma=86400
+[DEBUG] 2024-04-02 20:31:09.289 [main] RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:09.289 [main] wire -  << "3f2[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.290 [main] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xc4][0x98]Ks[0xe2]8[0x14][0x85][0xff][0xca]-/[0xb2][\n]"
+[DEBUG] 2024-04-02 20:31:09.290 [main] wire -  << "]6[0x8f][0x0][0xd9]u[0x1e]@[0xba]C[0x9a][0xc2]d[0xb2][0xe8][0x9e][0x85][0xb0]/[0xa0]BH[0x94][0x1e]3[0xc3][0xa4][0xf2][0xdf][0xa7]d']2[0xb2][0xbb][0xa9][0x2]<K\6[0xfe]|u[0xee][0xb9]Gz[\r]$[0xaa][0xad][0xe0][\n]"
+[DEBUG] 2024-04-02 20:31:09.290 [main] wire -  << "oE[0x8a][0xc1]54[0xc3][0xf0][0x12][0x82][0xad][0x14][0xa9]I[0xb4][\n]"
+[DEBUG] 2024-04-02 20:31:09.290 [main] wire -  << "[0xae][0xe1][0xfb]k@[0xd3][0xe0][0x1a][0xa2]K[0x8]8[0xd9][0xd8]{[0x82][0x1b]f[0x10]fb[0x1b]d[0xb7][0xd2]$[0xbb]8U[0x9f][0xa0][0x13][0x86][0xf6][0xda]\[0x12]n[0x9f][0x9]&[0x82][0x9]{!![0x1a][0x97]B[0xee][0x82]kx[\r][0x8c]B[0xa9]w[[0xdc][0xff][0x11][0xbc][0x88][\r][0xf2][0xe0][0xad]x0[0x13][[0x15][0xbc][0xbd]][0xc2];H[0xd3][0x1][0x19]#[0x87][0x99]ZQ[0xa9]=[0x94][0xf6][0x1e][0xca][0xe8]b|8[0xc9][0xb8][0x8c]#{O[0x1][0xa5][0xe5][0xa0][0xc4][0xc][0xf1]/d[0xa8][0x14][0xdc]IT[0xca][0x3][0x8a][0xc2]=[0xa2]1I[0xed][0xb3]G[0x96]'[0x99][0x3][0xd5]v[0xa1][0xf4][0x8e]Q[0xb5][0xaa]"[0xea][0xd4]C[0xd4]q[0x88]^([0xd7](K[0xc5]s[0xe5][0xd1]([\r][0x17]0"r.[0x8c]<[0xb5][0x8c][0xae][0xdc]2[0x99][0xcd][0x6]%[0xbc][0xac][0xa8].[0xd7][0xf5]Qb:[0x8c][0xa7][0xeb][0xca]:[[0x7]K[0x2][0x3]!![0xff][0x83][0x9a][0xf4][0xb4][0xcf][0xd5]s[0xb8][0x6][0x84]';[0x18]J[0xb4]mWR[0xa6]n[\r][0xed][0x1f]E^[0xd3])[0x98]H+[0xab]4[0xab]X#_G[\r][0xfb][0xfd][0x2][0xdc][\r][0x99][0xef]Vfy8[0xdf]W[0x9a][0xaa]R<[0xb8][0x80][0xd8][0xf3][0x86][0xc8][0xf5][0xa9][0x11]a[0xb][0xf8][0x80][0xb5][0x90]q[0xb2][0xa2][0x8b][0x5][0xa3]p[0x87][0x9a]PF[0xf9][0x12][0x1a]0[0xa1]|[0xed]a[0xb7]:[0xf5]b[0xbb][0x9e]6[0x90][0xe2][0xdf]|[0xa9]U&[0xc4][0xec][0xaf][0xf6][0x1][0x9b][0xdd]^[0x1][0xf0]3c[0xc8]![0x16][0x8c][0xed][0xe0][0x8b][0xe1]T[0xc8][0xb3][0xb1][0xba]V70[0x8c][0x15]J|[0xbb]B)wUe[0xbd][0xea][0x16][0xcb][0xfa]U[0x88]5[0xc5][0x9f]_x[0x16]\[0xd7][0x7]?[0x14][0xfb]m[0xb1][0x80]x%[0xc]KsW[0xac][0x94]o+[0xea][0xd4][0xaa][0x83][0xab][0x92]6[0xb3]|[0x84][0xa7][0x16]Xjh@[0x96][0x3].[0xca][0xb][0xdc][0xde][0x93][0xc5]ix[0xbd][0xd9][0x12][0xb9][0xfe][0xf4]H[0xb5]f[0x8]C*[0x99][0x82][0xb1][0xfc][0x4][0x13][0xc2]S[0x92][0x9d][0xef][0x9f][0xcd]=[0xb7][0xaa]C[0x2][0xfd][0xf2][0xc4][0xf0][0xcc]i"$[0x87][0x9][0xd1][0xc9][\n]"
+[DEBUG] 2024-04-02 20:31:09.290 [main] wire -  << "[0x86]"
+[DEBUG] 2024-04-02 20:31:09.291 [main] wire -  << "[0xe2]o^[0xa5][0xdb]([0xec][0x84][0xe7]m7[0xaf][0xc4][0xcd][0xd0][0x81][0xbe][0x15]Z[0xb][0xe]c[0xdb]m[0xf7][0x9b][0xb9][0x14]4E[0x89]iU[0xc2][0x88][0xfa][0xe7][0xaa][0xb1][0x8f][0xe9]%[0xd4]w[0xd6][0x7][0x9e]R[0x84]1M[0xd6][0xb8][0xab]LB[0xad]"[0xe7][\r][0x9d][0x93][0x93][0x3][0xba][0x13][0xe1]Q[0xf0]%[0x8c][0xc9]?[0x14]f[0x86]1[0x84]|[0xb4]f[0xcf][0xc0][0xf3][0x16][0xbe][0x19][0xbd][0xa0]ZA[0xa3]\[0x4][0xfb]Q[0xe9],[0xb8][0xad][0xdf]h[0xd5]:[0x18][0xc][0xa8][0xcd]h[0x3]F$[0xc2][0x13][0xea][0xf7]/hX[0x81]hZ[0xa2][0x87]:[0xc0][0xdb][0x5][0xbd]2a$[0xdc]0[0x91][0xac]1[0xcd][[0x12]~[0x98]f[0x18][0xb5] ^[0xef]2[0xb][0xf3]0{[0xed][0xfe][0xff]4[0xd2][0x9a][0xae][0x9d]M[0x8c][0xfc])[0xe2]?[0x1a]O[0x98][0xac]a[0xd6][0xa8]2[0xb3][0xbd]ts[0x8e][0xed]N[0xd3]u[0xaf]<[0x5][0xc6]4E[0x98]0[0x92][0xac][0xed][0xda]gY[0xa6][0x9a]1<*[0x1e][0x1e][0xba]'[0xb][0xb]S[0x16]7[0xd4]l[0xc0][0xbe][0xe9][0x83][0xeb][0x80]}[0xd0]y[0xc0][0xa2][0x8a][0xa5]}B[0xc1]?Bu[0xf9]^[0xb6][0xd7][0xa9]a/[hw[0xb1][0xd0][0x10]k[0x89]v[0x1c]}A[0xc2][0xfd][0xa2]u[0xf7][0x4]w|[0xcd][0xf2][0xf7][0xb8]Hn`[0x9a][0xe2][0xd2]0"3[0xc3][0x89][0xb5]$t[0xb9][0xd2][0x15]h[0xde]d?[0xba]^>Z[0xb7][0xd0][\n]"
+[DEBUG] 2024-04-02 20:31:09.292 [main] wire -  << "[0x86][0xeb]<[0xc][0xc5][0x8c]n2[0xc4][\n]"
+[DEBUG] 2024-04-02 20:31:09.292 [main] wire -  << "[0xb2][0xf6][0xc9][0x95][0xe6][0xa3][0xb9][0x16]2[0x15][\n]"
+[DEBUG] 2024-04-02 20:31:09.292 [main] wire -  << "[0xb3] Q[0x18][0xd6][0xd9][0xdc])[0x9f][0x84][0xcd]V=g[0x2][0xad][0xbe][0x1f]*b[0xca][0xd6]0[0xb2][0x1]3[0xb3][0xeb][0xf7][0x9][0x13][0x13][0x89]%q8<j[0x92][0x94]S[0xe6][0xaf]r[0xcf]R\3[0x99][0x1a][0xa5]a[0x8a])<Rn[0xad][0xaf][0x9c][0xab]S[0xb]W![0xeb] 1[0x9a].[0xc][0x83][0x9][0x92][0xc4][0x16][0xce]M?[0xbf][0x82][0xed][0x9c][0xe7][0x8][0xc1][0xc7]-$[0x1f][0x92][0xfc][0xf6]h[0xa3]][0xeb]QP[0xdb][0xb5][0xbe][0xe1][0xf4][0xf3]d[0xf4]p[0xb]w[0xf7][0xf1][0xc3][0xf0][0x9][0xc6][0xf7]O0[0x83]x[0xf4]0[0x9d][0xd9][\r][0xcf][0xe3][0xf3][0xbd]O[0xdb][0xea][0xf5]OB[0xfb]k[0xa7][0xfe][0xf3][0xed]?[0x0][0x0][0x0][0xff][0xff][0x3][0x0]@[0xfc]f[0xdb][0xad][0x15][0x0][0x0]"
+[DEBUG] 2024-04-02 20:31:09.292 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.293 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.293 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.293 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2024-04-02 20:31:09.296 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-04-02 20:31:09.302 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-04-02 20:31:09.305 [main] ReportManager - Evaluating the actual response status code 200 against the expected one 200.
+[DEBUG] 2024-04-02 20:31:09.307 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7d5ef93e
+[DEBUG] 2024-04-02 20:31:09.307 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-04-02 20:31:09.488 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2024-04-02 20:31:09.491 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[INFO ] 2024-04-02 20:31:09.498 [main] ReportManager - Expected "products", and actual "{"responseCode": 200, "products": [{"id": 1, "name": "Blue Top", "price": "Rs. 500", "brand": "Polo", "category": {"usertype": {"usertype": "Women"}, "category": "Tops"}}, {"id": 2, "name": "Men Tshirt", "price": "Rs. 400", "brand": "H&M", "category": {"usertype": {"usertype": "Men"}, "category": "Tshirts"}}, {"id": 3, "name": "Sleeveless Dress", "price": "Rs. 1000", "brand": "Madame", "category": {"usertype": {"usertype": "Women"}, "category": "Dress"}}, {"id": 4, "name": "Stylish Dress", "price": "Rs. 1500", "brand": "Madame", "category": {"usertype": {"usertype": "Women"}, "category": "Dress"}}, {"id": 5, "name": "Winter Top", "price": "Rs. 600", "brand": "Mast & Harbour", "category": {"usertype": {"usertype": "Women"}, "category": "Tops"}}, {"id": 6, "name": "Summer White Top", "price": "Rs. 400", "brand": "H&M", "category": {"usertype": {"usertype": "Women"}, "category": "Tops"}}, {"id": 7, "name": "Madame Top For Women", "price": "Rs. 1000", "brand": "Madame", "category": {"usertype": {"usertype": "Women"}, "category": "Tops"}}, {"id": 8, "name": "Fancy Green Top", "price": "Rs. 700", "brand": "Polo", "category": {"usertype": {"usertype": "Women"}, "category": "Tops"}}, {"id": 11, "name": "Sleeves Printed Top - White", "price": "Rs. 499", "brand": "Babyhug", "category": {"usertype": {"usertype": "Kids"}, "category": "Tops & Shirts"}}, {"id": 12, "name": "Half Sleeves Top Schiffli Detailing - Pink", "price": "Rs. 359", "brand": "Babyhug", "category": {"usertype": {"usertype": "Kids"}, "category": "Tops & Shirts"}}, {"id": 13, "name": "Frozen Tops For Kids", "price": "Rs. 278", "brand": "Allen Solly Junior", "category": {"usertype": {"usertype": "Kids"}, "category": "Tops & Shirts"}}, {"id": 14, "name": "Full Sleeves Top Cherry - Pink", "price": "Rs. 679", "brand": "Kookie Kids", "category": {"usertype": {"usertype": "Kids"}, "category": "Tops & Shirts"}}, {"id": 15, "name": "Printed Off Shoulder Top - White", "price": "Rs. 315", "brand": "Babyhug", "category": {"usertype": {"usertype": "Kids"}, "category": "Tops & Shirts"}}, {"id": 16, "name": "Sleeves Top and Short - Blue & Pink", "price": "Rs. 478", "brand": "Babyhug", "category": {"usertype": {"usertype": "Kids"}, "category": "Dress"}}, {"id": 18, "name": "Little Girls Mr. Panda Shirt", "price": "Rs. 1200", "brand": "Kookie Kids", "category": {"usertype": {"usertype": "Kids"}, "category": "Tops & Shirts"}}, {"id": 19, "name": "Sleeveless Unicorn Patch Gown - Pink", "price": "Rs. 1050", "brand": "Allen Solly Junior", "category": {"usertype": {"usertype": "Kids"}, "category": "Dress"}}, {"id": 20, "name": "Cotton Mull Embroidered Dress", "price": "Rs. 1190", "brand": "Kookie Kids", "category": {"usertype": {"usertype": "Kids"}, "category": "Dress"}}, {"id": 21, "name": "Blue Cotton Indie Mickey Dress", "price": "Rs. 1530", "brand": "Biba", "category": {"usertype": {"usertype": "Kids"}, "category": "Dress"}}, {"id": 22, "name": "Long Maxi Tulle Fancy Dress Up Outfits -Pink", "price": "Rs. 1600", "brand": "Biba", "category": {"usertype": {"usertype": "Kids"}, "category": "Dress"}}, {"id": 23, "name": "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi", "price": "Rs. 1100", "brand": "Biba", "category": {"usertype": {"usertype": "Kids"}, "category": "Dress"}}, {"id": 24, "name": "Colour Blocked Shirt \u2013 Sky Blue", "price": "Rs. 849", "brand": "Allen Solly Junior", "category": {"usertype": {"usertype": "Kids"}, "category": "Tops & Shirts"}}, {"id": 28, "name": "Pure Cotton V-Neck T-Shirt", "price": "Rs. 1299", "brand": "H&M", "category": {"usertype": {"usertype": "Men"}, "category": "Tshirts"}}, {"id": 29, "name": "Green Side Placket Detail T-Shirt", "price": "Rs. 1000", "brand": "Polo", "category": {"usertype": {"usertype": "Men"}, "category": "Tshirts"}}, {"id": 30, "name": "Premium Polo T-Shirts", "price": "Rs. 1500", "brand": "Polo", "category": {"usertype": {"usertype": "Men"}, "category": "Tshirts"}}, {"id": 31, "name": "Pure Cotton Neon Green Tshirt", "price": "Rs. 850", "brand": "H&M", "category": {"usertype": {"usertype": "Men"}, "category": "Tshirts"}}, {"id": 33, "name": "Soft Stretch Jeans", "price": "Rs. 799", "brand": "Polo", "category": {"usertype": {"usertype": "Men"}, "category": "Jeans"}}, {"id": 35, "name": "Regular Fit Straight Jeans", "price": "Rs. 1200", "brand": "H&M", "category": {"usertype": {"usertype": "Men"}, "category": "Jeans"}}, {"id": 37, "name": "Grunt Blue Slim Fit Jeans", "price": "Rs. 1400", "brand": "Polo", "category": {"usertype": {"usertype": "Men"}, "category": "Jeans"}}, {"id": 38, "name": "Rose Pink Embroidered Maxi Dress", "price": "Rs. 2300", "brand": "Madame", "category": {"usertype": {"usertype": "Women"}, "category": "Dress"}}, {"id": 39, "name": "Cotton Silk Hand Block Print Saree", "price": "Rs. 3000", "brand": "Biba", "category": {"usertype": {"usertype": "Women"}, "category": "Saree"}}, {"id": 40, "name": "Rust Red Linen Saree", "price": "Rs. 3500", "brand": "Biba", "category": {"usertype": {"usertype": "Women"}, "category": "Saree"}}, {"id": 41, "name": "Beautiful Peacock Blue Cotton Linen Saree", "price": "Rs. 5000", "brand": "Madame", "category": {"usertype": {"usertype": "Women"}, "category": "Saree"}}, {"id": 42, "name": "Lace Top For Women", "price": "Rs. 1400", "brand": "Mast & Harbour", "category": {"usertype": {"usertype": "Women"}, "category": "Tops"}}, {"id": 43, "name": "GRAPHIC DESIGN MEN T SHIRT - BLUE", "price": "Rs. 1389", "brand": "Mast & Harbour", "category": {"usertype": {"usertype": "Men"}, "category": "Tshirts"}}]}"
+[INFO ] 2024-04-02 20:31:09.500 [main] ReportManager - Verification "ValidateEquals" PASSED. Expected and Actual values are attached. Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2024-04-02 20:31:09.506 [main] ReportManager - Successfully created attachment 'Validation Test Data - Expected Value'
+[INFO ] 2024-04-02 20:31:09.510 [main] ReportManager - Successfully created attachment 'Validation Test Data - Actual Value'
+[INFO ] 2024-04-02 20:31:09.512 [main] ReportManager - the API response Body contains "products".
+[INFO ] 2024-04-02 20:31:09.518 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: getproductlisttest'
+[INFO ] 2024-04-02 20:31:09.520 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                 Finished Execution of Test Method: 'Tests.product_list_test.getproductlisttest'                                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:31:09.536 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of beforemethod configuration method                                             
+                                                     'Tests.product_list_test.beforemethod'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:31:09.554 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 5' test cases in the current suite                                        
+                                            Test Method: 'Tests.product_list_test.posttoproductstest'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-04-02 20:31:09.576 [main] BasicClientConnectionManager - Get connection for route {s}->https://automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:09.577 [main] DefaultClientConnectionOperator - Connecting to automationexercise.com:443
+[DEBUG] 2024-04-02 20:31:09.716 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-04-02 20:31:09.716 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-04-02 20:31:09.716 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:09.716 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-04-02 20:31:09.717 [main] DefaultClientConnection - Sending request: POST /api/productsList HTTP/1.1
+[DEBUG] 2024-04-02 20:31:09.717 [main] wire -  >> "POST /api/productsList HTTP/1.1[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.718 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.718 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.718 [main] wire -  >> "Content-Length: 0[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.718 [main] wire -  >> "Host: automationexercise.com[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.719 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.719 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.720 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.720 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:09.720 [main] headers - >> POST /api/productsList HTTP/1.1
+[DEBUG] 2024-04-02 20:31:09.720 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2024-04-02 20:31:09.720 [main] headers - >> Accept: */*
+[DEBUG] 2024-04-02 20:31:09.720 [main] headers - >> Content-Length: 0
+[DEBUG] 2024-04-02 20:31:09.720 [main] headers - >> Host: automationexercise.com
+[DEBUG] 2024-04-02 20:31:09.721 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-04-02 20:31:09.721 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-04-02 20:31:09.721 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-04-02 20:31:10.388 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.388 [main] wire -  << "Date: Tue, 02 Apr 2024 18:31:13 GMT[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.388 [main] wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.389 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.389 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.389 [main] wire -  << "vary: Accept,Cookie,Accept-Encoding[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.389 [main] wire -  << "referrer-policy: same-origin[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.389 [main] wire -  << "x-frame-options: DENY[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.390 [main] wire -  << "x-content-type-options: nosniff[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.390 [main] wire -  << "allow: GET, PUT, POST, DELETE, OPTIONS[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.390 [main] wire -  << "x-powered-by: Phusion Passenger 6.0.7[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.390 [main] wire -  << "status: 200 OK[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.390 [main] wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.390 [main] wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=PCpLPYIXU5Wl%2B%2BZP4%2F15nw0zyUVkoH0i6tQ11kxl0O29V68ZKRKBmZvUCveCoupRn%2Fz2sCVbpC4l5MqPuU%2Fc3HR1uqG7ZPJ%2F4LhcJeC1wlPubGmPdBKvDcPnVV1TDsUx2fvwQDiEb3ya"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.391 [main] wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.391 [main] wire -  << "Server: cloudflare[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.391 [main] wire -  << "CF-RAY: 86e2e5001cbc0da8-MRS[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.391 [main] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.391 [main] wire -  << "alt-svc: h3=":443"; ma=86400[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.391 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.392 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:10.392 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-04-02 20:31:10.392 [main] headers - << Date: Tue, 02 Apr 2024 18:31:13 GMT
+[DEBUG] 2024-04-02 20:31:10.392 [main] headers - << Content-Type: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:10.392 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2024-04-02 20:31:10.392 [main] headers - << Connection: keep-alive
+[DEBUG] 2024-04-02 20:31:10.392 [main] headers - << vary: Accept,Cookie,Accept-Encoding
+[DEBUG] 2024-04-02 20:31:10.392 [main] headers - << referrer-policy: same-origin
+[DEBUG] 2024-04-02 20:31:10.393 [main] headers - << x-frame-options: DENY
+[DEBUG] 2024-04-02 20:31:10.393 [main] headers - << x-content-type-options: nosniff
+[DEBUG] 2024-04-02 20:31:10.393 [main] headers - << allow: GET, PUT, POST, DELETE, OPTIONS
+[DEBUG] 2024-04-02 20:31:10.393 [main] headers - << x-powered-by: Phusion Passenger 6.0.7
+[DEBUG] 2024-04-02 20:31:10.393 [main] headers - << status: 200 OK
+[DEBUG] 2024-04-02 20:31:10.393 [main] headers - << CF-Cache-Status: DYNAMIC
+[DEBUG] 2024-04-02 20:31:10.393 [main] headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=PCpLPYIXU5Wl%2B%2BZP4%2F15nw0zyUVkoH0i6tQ11kxl0O29V68ZKRKBmZvUCveCoupRn%2Fz2sCVbpC4l5MqPuU%2Fc3HR1uqG7ZPJ%2F4LhcJeC1wlPubGmPdBKvDcPnVV1TDsUx2fvwQDiEb3ya"}],"group":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:10.393 [main] headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[DEBUG] 2024-04-02 20:31:10.394 [main] headers - << Server: cloudflare
+[DEBUG] 2024-04-02 20:31:10.394 [main] headers - << CF-RAY: 86e2e5001cbc0da8-MRS
+[DEBUG] 2024-04-02 20:31:10.394 [main] headers - << Content-Encoding: gzip
+[DEBUG] 2024-04-02 20:31:10.394 [main] headers - << alt-svc: h3=":443"; ma=86400
+[DEBUG] 2024-04-02 20:31:10.395 [main] RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+[DEBUG] 2024-04-02 20:31:10.395 [main] wire -  << "61[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.395 [main] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xaa]V*J-.[0xc8][0xcf]+Nu[0xce]OIU[0xb2]R010[0xd5]QP[0xca]M-.NL[0x7][0xf1][0x95]B22[0x8b][0x15][0x8a]R[0xb]KS[0x8b]K[0x14]rSK2[0xf2]S[0x14]2[0x8b][0x15][0xf2][0xf2]K[0x14][0x8a]K[0xb][\n]"
+[DEBUG] 2024-04-02 20:31:10.395 [main] wire -  << "[0xf2][0x8b]JRS[0xf4][0x94]j[0x1][0x0][0x0][0x0][0xff][0xff][0x3][0x0][0x4][0x9b]n[0x8f]I[0x0][0x0][0x0]"
+[DEBUG] 2024-04-02 20:31:10.396 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.397 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.397 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-04-02 20:31:10.397 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2024-04-02 20:31:10.401 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-04-02 20:31:10.406 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2024-04-02 20:31:10.408 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "true" and Actual "true". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-04-02 20:31:10.410 [main] ReportManager - Evaluating that the response is successful (Status code is between 200 and 299).
+[DEBUG] 2024-04-02 20:31:10.412 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6831286e
+[DEBUG] 2024-04-02 20:31:10.412 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-04-02 20:31:10.464 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2024-04-02 20:31:10.467 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2024-04-02 20:31:10.474 [main] CompiledPath - Evaluating path: $['message']
+[DEBUG] 2024-04-02 20:31:10.475 [main] CompiledPath - Evaluating path: $['message']
+[INFO ] 2024-04-02 20:31:10.476 [main] ReportManager - Get response jsonvalue "message".
+[INFO ] 2024-04-02 20:31:10.478 [main] ReportManager - Expected "This request method is not supported.", and actual "This request method is not supported."
+[INFO ] 2024-04-02 20:31:10.481 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "This request method is not supported." and Actual "This request method is not supported.". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-04-02 20:31:10.483 [main] ReportManager - the API response extracted value from the JSON path "message" is equal to "This request method is not supported.".
+[INFO ] 2024-04-02 20:31:10.490 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: posttoproductstest'
+[INFO ] 2024-04-02 20:31:10.491 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                 Finished Execution of Test Method: 'Tests.product_list_test.posttoproductstest'                                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:31:10.533 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-04-02 20:31:10.542 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

@@ -1,0 +1,19 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 5' test cases in the current suite                                        
+                                            Test Method: 'Tests.product_list_test.posttoproductstest'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @02-04-2024 20:31:10.0401 PM
+[ReportManager] Expected "true", and actual "true" @02-04-2024 20:31:10.0406 PM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "true" and Actual "true". Comparison Type "EQUALS". Validation Type "POSITIVE". @02-04-2024 20:31:10.0407 PM
+[ReportManager] Assertion Passed: "true" is TRUE. @02-04-2024 20:31:10.0410 PM
+[ReportManager] Evaluating that the response is successful (Status code is between 200 and 299). @02-04-2024 20:31:10.0410 PM
+[ReportManager] Request details:  "POST | Target Status Code: 0 | Service URL: https://automationexercise.com/api/productsList | Content Type: application/json | Response Time: 832ms". @02-04-2024 20:31:10.0461 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @02-04-2024 20:31:10.0464 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @02-04-2024 20:31:10.0467 PM
+[ReportManager] Get response jsonvalue "message". @02-04-2024 20:31:10.0476 PM
+[ReportManager] Expected "This request method is not supported.", and actual "This request method is not supported." @02-04-2024 20:31:10.0478 PM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "This request method is not supported." and Actual "This request method is not supported.". Comparison Type "EQUALS". Validation Type "POSITIVE". @02-04-2024 20:31:10.0480 PM
+[ReportManager] Assertion Passed: the API response extracted value from the JSON path "message" is equal to "This request method is not supported.". @02-04-2024 20:31:10.0482 PM
+[ReportManager] the API response extracted value from the JSON path "message" is equal to "This request method is not supported.". @02-04-2024 20:31:10.0483 PM

@@ -1,0 +1,26 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 5' test cases in the current suite                                        
+                                              Test Method: 'Tests.account_user_api.getdataapitest'                                              
+                                                    Test Description: 'Get Account Data Test'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @02-04-2024 20:31:07.0329 PM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @02-04-2024 20:31:07.0335 PM
+[ReportManager] Assertion Passed: "200" is equal to "200". @02-04-2024 20:31:07.0337 PM
+[ReportManager] Evaluating the actual response status code 200 against the expected one 200. @02-04-2024 20:31:07.0338 PM
+[ReportManager] Request details:  "GET | Target Status Code: 200 | Service URL: https://automationexercise.com/api/getUserDetailByEmail | Content Type: application/x-www-form-urlencoded | Response Time: 822ms". @02-04-2024 20:31:07.0391 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @02-04-2024 20:31:07.0393 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @02-04-2024 20:31:07.0396 PM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @02-04-2024 20:31:08.0246 PM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @02-04-2024 20:31:08.0252 PM
+[ReportManager] Assertion Passed: "200" is equal to "200". @02-04-2024 20:31:08.0253 PM
+[ReportManager] Evaluating the actual response status code 200 against the expected one 200. @02-04-2024 20:31:08.0254 PM
+[ReportManager] Request details:  "GET | Target Status Code: 200 | Service URL: https://automationexercise.com/api/getUserDetailByEmail | Content Type: application/x-www-form-urlencoded | Response Time: 828ms". @02-04-2024 20:31:08.0298 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @02-04-2024 20:31:08.0302 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @02-04-2024 20:31:08.0308 PM
+[ReportManager] Get response jsonvalue "message". @02-04-2024 20:31:08.0323 PM
+[ReportManager] Expected "Account not found with this email, try another email!", and actual "Account not found with this email, try another email!" @02-04-2024 20:31:08.0325 PM
+[ReportManager] Verification "ValidateEquals" PASSED. Expected "Account not found with this email, try another email!" and Actual "Account not found with this email, try another email!". Comparison Type "EQUALS". Validation Type "POSITIVE". @02-04-2024 20:31:08.0327 PM
+[ReportManager] Verification Passed: the API response extracted value from the JSON path "message" is equal to "Account not found with this email, try another email!". @02-04-2024 20:31:08.0329 PM
+[ReportManager] the API response extracted value from the JSON path "message" is equal to "Account not found with this email, try another email!". @02-04-2024 20:31:08.0330 PM
